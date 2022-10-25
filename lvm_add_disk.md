@@ -329,7 +329,5 @@ tmpfs                        3,2G     0  3,2G   0% /run/user/1000
 > ```
 > /dev/mapper/debian--vg-root  270G   12G  259G   5% /
 > ```
-> {.is-success}
-> 
-{.is-success}
+
 
