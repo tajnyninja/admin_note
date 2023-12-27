@@ -23,3 +23,9 @@ Oto wyjaśnienie krok po kroku:
   
 
 Ostatecznie, wykonanie tej komendy spowoduje wyświetlenie rzeczywistej ścieżki pliku `/etc/issue`, jeśli jest ona skrótem lub dowiązaniem symbolicznym.
+
+# mask
+
+Komenda systemctl mask rsync służy do zablokowania (maskowania) usługi o nazwie "rsync" w systemie Linux za pomocą systemu inicjalizacji systemd. Maskowanie usługi powoduje, że nie może być uruchamiana ani aktywowana.
+
+Gdy usługa jest zablokowana za pomocą maskowania, systemctl nie zezwala na jej uruchomienie, ani na aktywację przez inne usługi. Oznacza to, że usługa "rsync" będzie zablokowana i nie będzie uruchamiana automatycznie podczas startu systemu ani w wyniku żadnych zależności systemowych.
